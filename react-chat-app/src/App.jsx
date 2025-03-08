@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import AuthPage from "./pages/AuthPage";  
+import AuthPage from "./pages/authpage";  
 import ChatPage from "./pages/ChatPage";  
 import "bootstrap/dist/css/bootstrap.min.css";
 

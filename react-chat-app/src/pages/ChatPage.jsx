@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import { Container, Form, Button, ListGroup, Badge } from "react-bootstrap";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:7070");
+// const socket = io("http://localhost:7070");
+const socket = io("https://your-backend.vercel.app");  // Hardcoded backend URL
+
 
 const ChatPage = () => {
   const [users, setUsers] = useState([]);
@@ -120,3 +122,6 @@ const ChatPage = () => {
 };
 
 export default ChatPage;
+
+
+
